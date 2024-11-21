@@ -24,7 +24,7 @@ jobs:
 
     - name: Run diagram script
       run: |
-        python diagram_script.py  # Make sure your script generates the diagram file here
+        python diagrams.py  # Make sure your script generates the diagram file here
     
     - name: Commit and push diagram
       run: |
